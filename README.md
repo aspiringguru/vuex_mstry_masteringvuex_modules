@@ -41,3 +41,19 @@ npm run build
 ```
 npm run lint
 ```
+
+---
+
+### Working notes
+
+```
+json-server --watch db.json
+npm install
+yarn serve
+
+before start : fix missing dependency in package.json
+
+
+
+
+```
