@@ -65,6 +65,12 @@ nb: the method used in these videos allows private variables and methods.
 access a module's state from another module.
 access a module's action from another module.
 
+global namespace
+vuex module namespacing to avoid naming collisions.
+
+refer L@12:45 slide explaining mapGetters with/without NameSpacing
+refer L@14:07 slide explaining calling actionsfrom another NameSpaced module
+
 
 
 
