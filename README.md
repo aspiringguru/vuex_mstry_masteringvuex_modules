@@ -53,6 +53,18 @@ yarn serve
 
 before start : fix missing dependency in package.json
 
+to date : all state, mutations, actions and getters are in store.js
+split store.js into user.js and event.js
+
+move store.js to new dir store and update mains.js reference
+
+---------------------------------
+refer slide @ 756 - two possible Vuex model syntax.
+nb: the method used in these videos allows private variables and methods.
+
+access a module's state from another module.
+access a module's action from another module.
+
 
 
 
