@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Events for {{ user.name }}</h1>
+    <h1>Events for {{ user.user.name }}</h1>
+    <!--NB: user.user = moduleName.state -->
     <EventCard v-for="event in events" :key="event.id" :event="event"/>
     <template v-if="page != 1">
       <router-link :to="{ name: 'event-list', query: { page: page - 1 } }" rel="prev">Prev Page</router-link>

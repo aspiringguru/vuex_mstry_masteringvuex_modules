@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import EventService from '@/services/EventService.js'
+import * as user from '@/store/modules/user.js'
+//the import * imports all public items into user namespace
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  modules: {
+    user
+  },
   state: {
     user: { id: 'abc123', name: 'Adam Jahr' },
     categories: [
